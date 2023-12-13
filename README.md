@@ -31,7 +31,7 @@ This project aims to detect and classify various types of stuttering patterns in
   model_manager.train_model(X_train_scaled, y_train, X_test_scaled, y_test)
   ```
 
-### 3. Stutter Feature Extraction
+### 3. Stutter Feature Extraction(OOP)
 
 - **File:** `features.py`
 - **Purpose:** Extracts MFCC features and predicts stutter types using the trained LSTM model.
@@ -41,7 +41,7 @@ This project aims to detect and classify various types of stuttering patterns in
   predicted_class = stutter_extractor.predict_stutter_type(audio_file_path)
   ```
 
-### 4. User Interface
+### 4. User Interface(OOP)
 
 - **File:** `stutter_detection_app_multimodel.py`
 - **Purpose:** Kivy-based GUI for selecting an audio file and detecting stuttering.
@@ -51,7 +51,7 @@ This project aims to detect and classify various types of stuttering patterns in
       StutterDetectionApp().run()
   ```
 
-### 5. Model Training
+### 5. Model Training(OOP)
 
 - **File:** `lstm_test_code_multiclass.ipynb`
 - **Purpose:** Jupyter Notebook containing the code for training the LSTM model.
