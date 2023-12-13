@@ -1,6 +1,6 @@
 
 
-```markdown
+
 # Stutter Detection Project
 
 ## Overview
