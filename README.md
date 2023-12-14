@@ -9,7 +9,7 @@ This project aims to detect and classify various types of stuttering patterns in
 
 ## Project Structure
 
-### 1. Data Handling (OOP)
+### 1. Data Handling (Class)
 
 - **File:** `Data_Handler.py`
 - **Purpose:** Manages loading, preprocessing, and scaling of the dataset.
@@ -20,7 +20,7 @@ This project aims to detect and classify various types of stuttering patterns in
   data_handler.preprocess_data()
   ```
 
-### 2. Model Management (OOP)
+### 2. Model Management (Class)
 
 - **File:** `Model_Manager.py`
 - **Purpose:** Manages the LSTM model, including construction, training, evaluation, and saving.
@@ -31,7 +31,7 @@ This project aims to detect and classify various types of stuttering patterns in
   model_manager.train_model(X_train_scaled, y_train, X_test_scaled, y_test)
   ```
 
-### 3. Stutter Feature Extraction(OOP)
+### 3. Stutter Feature Extraction(Class)
 
 - **File:** `features.py`
 - **Purpose:** Extracts MFCC features and predicts stutter types using the trained LSTM model.
@@ -41,7 +41,7 @@ This project aims to detect and classify various types of stuttering patterns in
   predicted_class = stutter_extractor.predict_stutter_type(audio_file_path)
   ```
 
-### 4. User Interface(OOP)
+### 4. User Interface(Class)
 
 - **File:** `stutter_detection_app_multimodel.py`
 - **Purpose:** Kivy-based GUI for selecting an audio file and detecting stuttering.
@@ -51,7 +51,7 @@ This project aims to detect and classify various types of stuttering patterns in
       StutterDetectionApp().run()
   ```
 
-### 5. Model Training(OOP)
+### 5. Model Training(Class)
 
 - **File:** `lstm_test_code_multiclass.ipynb`
 - **Purpose:** Jupyter Notebook containing the code for training the LSTM model.
